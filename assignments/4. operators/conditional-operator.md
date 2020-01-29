@@ -42,17 +42,42 @@ var firstName = 'John';
 var status = 'single';
 // Your code goes here
 ```
+if(status=='single'){
+  alert("John is single");
+}
+else{
+  alert("John is married");
+}
 
 3. 🎖Write a JavaScript program that takes two `integers` from user (using prompt) and alerts the larger number.
 ```js
 // your code goes here
 ```
+var a = prompt("Enter number  one");
+var b = prompt("Enter number two");
+
+if (Number(a)>Number(b)){
+  alert("Larger number is:" +a);
+}
+else{
+  alert("Larger number is:" +b);
+}
 
 4. 🎖Write a JavaScript conditional statement to find the sign (+, -) of product of three numbers. Take those three numbers from user using `prompt`. Display an alert box with the specified sign.
 
 ```js
 // Your code goes here
 ```
+var num1 = Number(prompt("enter number one"));
+var num2 = Number(prompt("enter number two"));
+var num3 = Number(prompt("enter number three"));
+var product = num1*num2*num3;
+if (product>0){
+  alert("product is +"+product);
+}
+else {
+  alert("product is -"+product);
+}
 
 ## Switch Statement
 
