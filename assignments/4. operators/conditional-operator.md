@@ -9,6 +9,33 @@
     * [ ] Mul
     * [ ] Div
 
+    var a = prompt("Enter number one");
+    var b = prompt("Enter number two");
+    var operator = prompt("Enter the operator");
+    
+    if (operator=="+"){
+      alert(Number(a) + Number(b));
+    }
+    else if (operator=="-"){
+      if(Number(a)>Number(b)){
+      alert(Number(a) - Number(b));
+      }
+      else{
+        alert("Number two is larger than number one");
+      }
+    }
+    else if (operator=="*"){
+      alert(Number(a) * Number(b));
+    }
+    else if (operator=="/"){
+      if(Number(a)>Number(b)){
+      alert(Number(a) / Number(b));
+      }
+      else{
+        alert("Number two is larger than number one");
+      }
+    }
+
 2. 🎖Write a if else statement which checks if the status is single `console.log` the message `John is single` or else `John is married`
 ```js
 var firstName = 'John';
