@@ -42,6 +42,16 @@ false || "Hey" || undefined       // "Hey"
 let isGuestOneVeg = false;
 let isGuestTwoVeg = false;
 // Your code goes here
+
+if (isGuestOneVeg == true && isGuestTwoVeg == true){
+    alert("Offer vegan dishes");
+}
+else if(isGuestOneVeg == true || isGuestTwoVeg == true){
+    alert("Offer some vegan options");
+}
+else{
+    alert("Offer anything");
+}
 ```
 
 
@@ -51,6 +61,15 @@ let isGuestTwoVeg = false;
 * [ ] else 'Go for it. It is pretty nice out'
 ```js
 let temperature = 4;
+if (temperature < 32){
+    alert("It is freezing outside");
+}
+else if (temperature > 110){
+    alert("It is hot outside");
+}
+else{
+    alert("Go for it. It is pretty nice out");
+}
 // Your code goes here
 ```
 
